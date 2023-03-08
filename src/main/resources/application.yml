@@ -1,0 +1,11 @@
+# 测试地址:http://localhost:8194/hello
+#然后:后面得跟空格
+#对请求没啥用
+spring:
+  application:
+    name: javaTool
+server:
+  servlet:
+    context-path: /
+  address: localhost
+  port: 8194
